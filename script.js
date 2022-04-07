@@ -9,7 +9,6 @@ let analyser;
 c = 0;
 button5.addEventListener('click', function(){
     c++;
-    audio1.volume=0.5;
     if(c == 1){
         const audio1 = document.getElementById('audio1');
         audio1.src = 'audio/J. Cole - p r i d e . i s . t h e . d e v i l  feat. Lil Baby (Official Audio).mp3';
@@ -41,13 +40,32 @@ button5.addEventListener('click', function(){
             requestAnimationFrame(animate);
         }
         animate();
-    }else {
+    }else{
         audio1.pause();
-        button5.innerHTML="Attiva Musica"
+        button5.innerHTML="Attiva Musica";
         c = 0;
     }
 
 });
+
+//ripetizione playlist
+function cambiaCanzone(){
+    k = 0;
+    let arr = [
+        'audio/J. Cole - p r i d e . i s . t h e . d e v i l  feat. Lil Baby (Official Audio).mp3', 
+        'audio/Paky - Vita Sbagliata .mp3', 
+        'audio/Rhove - Cancelo.mp3'
+    ];
+    audio1.onended = function(){
+        k++;
+        audio1.src = arr[k];
+        audio1.play();
+    };
+}
+
+cambiaCanzone();
+//------------------//
+
 
 
 
