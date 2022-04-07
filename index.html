@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
     <title>Smash Info</title>
 </head>
+
 <body>
-    <center><h1>Smash_Info</h1></center>
+    <!-- intestazione -->
+    <div class="intestazione">
+        <center>
+            <h1>Smash_Info</h1>
+        </center>
+    </div>
+
+    <!-- menu di gioco -->
+
+    <div class="grid-container">
+        <div class="grid-item"> <button class="button" id="button1">Crea una stanza</button></div>
+        <div class="grid-item"> <button class="button" id="button2">Unisciti ad una stanza</button></div>
+        <div class="grid-item"> <button class="button" id="button3">Personalizza il personaggio</button></div>
+        <div class="grid-item"> <button class="button" id="button4">Impostazioni</button></div>
+        <div class="grid-item"> <button class="button" id="button5">Attiva Musica</button></div>
+    </div>
+    <div id="container">            
+        <canvas id="canvas1"></canvas>
+        <audio id="audio1"></audio>
+    </div>
+
 </body>
+<script src="script.js"></script>
+
 </html>
