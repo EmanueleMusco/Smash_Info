@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="benvenuto.css">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/whittle" rel="stylesheet">
+    <title>Smash Info</title>
+</head>
+
+<body>
+    <!-- intestazione -->
+    <div class="intestazione"><h1>Smash_Info</h1></div>
+
+    <div class="grid-container" >
+        <div class="grid-item"><input type="text" name="username" id="username" placeholder="Name..."></div>
+        <div class="grid-item"> <button class="button" id="bottoneIniziale">Inizia a giocare</button></div>
+    </div>  
+    
+    <div id="container">            
+        <canvas id="canvas1"></canvas>
+        <audio id="audio1"></audio>
+    </div>
+
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+<script src="script.js"></script>
+</html>
