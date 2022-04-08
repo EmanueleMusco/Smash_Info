@@ -5,21 +5,28 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
 const path = require('path');
-let player = 0;
+let members = 0;
 //set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
 
 io.on('connection', (socket) => {
-  player++;
-  console.log('Online members: '+ player)
-  socket.on('player', () => {
-    io.emit('player', player )
+
+
+  socket.on('player', (player) => {  
+
+    members += player;
+    console.log('Online members: '+ members)
+    io.emit('player', members)
+    
   });
   socket.on('disconnect', () => {
-    player--;
-    io.emit('player', player )
-    console.log('Online members: '+ player)
+    members--;
+    if(members < 0){
+      members = 0;
+    }
+    io.emit('player', members )
+    console.log('Online members: '+ members)
   });
 });
 
