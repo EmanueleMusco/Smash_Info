@@ -41,12 +41,7 @@ button5.addEventListener('click', function(){
             x = 0;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             analyser.getByteFrequencyData(dataArray);
-            for(let i=0; i < bufferLenght; i++){
-                barHeight = dataArray[i];
-                ctx.fillStyle = 'greenyellow';
-                ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
-                x += barWidth;
-            }
+            drawVisualiser(bufferLenght, x, barWidth, barHeight, dataArray);
             requestAnimationFrame(animate);
         }
         animate();
@@ -58,6 +53,21 @@ button5.addEventListener('click', function(){
     }
 
 });
+
+
+//funzione animazione canvas
+function drawVisualiser(bufferLenght, x, barWidth, barHeight, dataArray){
+for(let i = 0; i<bufferLenght; i++){
+    barHeight = dataArray[i];
+    const red = i * barHeight/20;
+    const green = i * 6;
+    const blue = barHeight/2;
+    ctx.fillStyle = 'rgb(' + red + ',' + green + ',' + blue + ')';
+    ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+    x += barWidth;
+    }
+}
+
 //ripetizione playlist
 function play(){
 
