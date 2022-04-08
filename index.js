@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 io.on('connection', (socket) => {
-
+  var address = socket.handshake.address;
 
   socket.on('player', (player) => {  
 

@@ -101,8 +101,7 @@ button2 = document.getElementById('button2')
 button2.addEventListener('click', function(){
     
 })
-//personalizzazione personaggio
-button3 = document.getElementById('button3')
+
 //impostazioni
 button4 = document.getElementById('button4')
 
