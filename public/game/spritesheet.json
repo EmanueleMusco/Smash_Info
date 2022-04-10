@@ -1,0 +1,215 @@
+{
+	"frames": {
+		"omino blu-0.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-1.png": {
+			"frame": {
+				"x": 129,
+				"y": 1,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-2.png": {
+			"frame": {
+				"x": 257,
+				"y": 1,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-3.png": {
+			"frame": {
+				"x": 1,
+				"y": 133,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-4.png": {
+			"frame": {
+				"x": 129,
+				"y": 133,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-5.png": {
+			"frame": {
+				"x": 257,
+				"y": 133,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-6.png": {
+			"frame": {
+				"x": 1,
+				"y": 265,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-7.png": {
+			"frame": {
+				"x": 129,
+				"y": 265,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-8.png": {
+			"frame": {
+				"x": 257,
+				"y": 265,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		},
+		"omino blu-9.png": {
+			"frame": {
+				"x": 385,
+				"y": 1,
+				"w": 126,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 126,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 126,
+				"h": 130
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "omino.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 512,
+			"h": 396
+		},
+		"scale": "1"
+	}
+}
